@@ -3,6 +3,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: liberty-java-tutorial-TPM
-  host: liberty-java-tutorial-tpm
+  name: liberty-java-experimental
+  host: liberty-java-experimental
   disk_quota: 1024M
