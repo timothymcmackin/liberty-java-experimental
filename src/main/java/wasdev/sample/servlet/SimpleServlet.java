@@ -21,7 +21,9 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Tim greets you! Really! Don't you feel important? 2:34 PM");
+        Date now = new java.util.Date();
+        String currentTime = now.toString();
+        response.getWriter().print("Tim greets you! Really! Don't you feel important?" + currentTime);
     }
 
 }
